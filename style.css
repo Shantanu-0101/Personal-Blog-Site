@@ -1,0 +1,275 @@
+.navbar{
+    background-color: black;
+    
+}
+
+.nav-item{
+    padding:0px 10px;
+}
+
+
+.nav-item:hover .nav-link{
+    color:red
+}
+
+.navbar-brand i{
+    color: red;
+}
+
+
+/* Navbar-end */
+
+
+/* Carousel start */
+.bg1 {
+    background: url("images/Pokecut.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(90vh);
+    position: relative;
+}
+
+.bg2 {
+    background: url("images/horse.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(90vh);
+    position: relative;
+
+}
+
+.bg3 {
+    background: url("images/black.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(90vh);
+    position: relative ;
+
+}
+
+.mycaption{
+    color: white;
+    position: absolute;
+    width: 40%;
+    left: 40%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.mycaption{
+    text-align: left;
+    font-size: 20px;
+}
+
+/* aboput section */
+section {
+    padding: 100px 0px;
+}
+
+.mainheading {
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    display: block;
+}
+
+.mainheading::before {
+    content:"";
+    width: 100px;
+    background-color: #ff9041;
+    height: 2px;
+    margin: 14px;
+    display: inline-block;
+}
+
+.mainheading::after {
+    content:"";
+    width: 100px;
+    background-color: #ff9041;
+    height: 2px;
+    margin: 14px;
+    display: inline-block;
+}
+
+.subheading {
+    text-align: center;
+    display: block;
+
+}
+
+.about p,
+li {
+    line-height: 30px;
+}
+
+.about ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;;
+}
+
+.about i{
+    color:red
+}
+
+.aboutreadmore{
+    color: red;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid red;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.aboutreadmore:hover {
+    color: #ffff;
+    background-color: orange;
+    transition: 0.5s;
+}
+
+.mycard{
+    padding: 20px;
+    box-shadow: 0px 0px 30px #cecece ;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.mycard i{
+    font-size: 40px;
+}
+
+.counter{
+    font-size:40px;
+    font-weight: 500;
+}
+
+.mycard a{
+    text-decoration: none;
+    color: red;
+}
+
+.mycard a:hover {
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+.cardtitle{
+    font-size: 30px;
+    font-weight: 700;
+}
+/* about end */
+
+
+/* help */
+.help {
+    background-color: black;
+    color: #cecece;
+    text-align: center;
+}
+
+.help p{
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+.help-phone{
+    font-size: 30px;
+}
+
+.help-phone i{
+    color: red;
+}
+/* help */
+
+/* services */
+.service-card{
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+
+
+}
+
+.service-card i{
+    color: red;
+}
+/* end services */
+
+/* team */
+
+.team{
+    background-color: red;
+}
+.teamcard{
+    padding: 20px;
+    background-color: black;
+}
+
+.teamcard img{
+    border-radius: 50px;
+}
+
+.teamcard h3{
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+
+
+}
+
+.teamcard p{
+    color: white;
+    text-align: center;
+
+}
+
+.teamcard em{
+    color: white;
+    text-align: center;
+
+}
+
+.teamcard img{
+    background-color: #ff9041;
+}
+
+.teamcard:hover {
+    box-shadow: 0px 0px 30px white;
+    transition: 0.5s;
+}
+
+/* end team */
+
+/* faq */
+.accordion-button{
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-top: black;
+}
+
+.accordion-item{
+    margin-top: 20px;
+    background-color: red;
+}
+/* faq */
+
+/* gallery */
+.gallery{
+    background-color: lightgray;
+}
+/* gallery */
+
+.mainheading1{
+    text-align: center;
+    background-color: aliceblue;
+    color: red;
+}
